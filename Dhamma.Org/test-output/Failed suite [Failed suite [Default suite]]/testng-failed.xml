@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Default suite]]]">
+  <test name="Dhamma Test(failed)(failed)">
+    <classes>
+      <class name="searchTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- searchTest -->
+      <class name="courseApllicationTest">
+        <methods>
+          <include name="tearoff"/>
+          <include name="setUp"/>
+          <include name="verifycourseApplication"/>
+        </methods>
+      </class> <!-- courseApllicationTest -->
+    </classes>
+  </test> <!-- Dhamma Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Default suite]]] -->
